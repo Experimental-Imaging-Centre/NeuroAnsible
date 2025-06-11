@@ -68,7 +68,7 @@
   template:
     src: templates/basemodule.j2
     dest: /opt/quarantine/software/MRIcrotome/2aed2ff/module
-  # vars:
+  vars:
     prereqs:
       - R
     extra_opts:
